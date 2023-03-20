@@ -60,6 +60,7 @@ The demo video should be a video that shows how to deploy the autonomous smart c
 ## Resources
 ### Substrate & Ink!
 - [Ink! documentation](https://use.ink/)
+- [Substrate general documentation](https://docs.substrate.io/)
 - [substrate node with contracts pallet enabled](https://github.com/paritytech/substrate-contracts-node)
 
 ### Massa
