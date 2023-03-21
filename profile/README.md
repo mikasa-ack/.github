@@ -1,6 +1,6 @@
 # Mikasa
 
-Ⓜ️odular ℹ️nk-based 🅚inetic 🅰️utonomous 🇸mart contracts 🅰️rchitecture.
+【M】odular【I】nk-based【K】inetic【A】utonomous【S】mart contracts【A】rchitecture.
 
 ## Overview
 
