@@ -1,6 +1,6 @@
 # Mikasa
 
-Modular Ink-based Kinetic Autonomous Smart Contracts Architecture.
+Ⓜ️odular ℹ️nk-based 🅚inetic 🅰️utonomous 🇸mart contracts 🅰️rchitecture.
 
 ## Overview
 
