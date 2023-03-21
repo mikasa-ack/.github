@@ -4,6 +4,8 @@ Modular Ink-based Kinetic Autonomous Smart Contracts Architecture.
 
 ## Overview
 
+This project aims to create an on-chain implementation of the famous Game of Life cellular automaton using Substrate, Ink!, and a custom-built Substrate pallet. Our project demonstrates the power of autonomous smart contracts for on-chain gaming.
+
 The goal of this project is to create a Substrate pallet that allows to execute autonomous smart contracts that are written in Ink!. It can be used to do automatic onchain actions, triggered by the protocol, without requiring any user interaction. For instance, it can be used to implement a ticker function for some onchain games. 
 
 The scope of the hackathon is to implement an onchain fully autonomous Game of life contract that is written in Ink! and deployed on a Substrate node with the contracts pallet enabled.
@@ -23,30 +25,35 @@ Optional / Bonus:
 ## Architecture
 
 The main components of the system are:
-- `gol`: the Game of life Ink! smart contract
-- `gol-app`: the Game of life frontend
-- `mikasa-node`: the Substrate node with the autonomous smart contracts pallet enabled
-
-Optional / Bonus:
-- `price-oracle`: the Price oracle Ink! smart contract
+- gol: The Game of Life Ink! smart contract, which implements the rules and state updates of the cellular automaton.
+- gol-app: A user-friendly web frontend for interacting with the Game of Life contract and visualizing its state.
+- mikasa-node: A custom Substrate node with the autonomous smart contracts pallet enabled, allowing for the execution of Ink! smart contracts without user interaction.
 
 ### Autonomous smart contracts pallet
 
-The autonomous smart contracts pallet should be a Substrate pallet that allows to execute autonomous smart contracts.
+The Autonomous Smart Contracts Pallet is a custom-built Substrate pallet that enables the execution of autonomous smart contracts written in Ink!. It is designed to interact seamlessly with the Contracts Pallet, which is responsible for the deployment and management of smart contracts on a Substrate node.
 
-The pallet should be able to execute autonomous smart contracts that are written in Ink! and deployed on a Substrate node with the contracts pallet enabled.
+Key features of the Autonomous Smart Contracts Pallet include:
+
+Triggering smart contract execution on a predefined schedule, such as every block or at specific block heights.
+Supporting multiple autonomous smart contracts with varying schedules and execution conditions.
+Ensuring compatibility with the Contracts Pallet and other Substrate runtime modules.
 
 ### Game of life Ink! contract
 
-The Game of life contract should be an autonomous smart contract that is written in Ink! and deployed on a Substrate node with the contracts pallet enabled.
+The Game of Life contract is an Ink! smart contract that implements the rules and state updates for the Game of Life cellular automaton. It features:
 
-The contract should be able to execute the game of life algorithm and update the state of the game of life.
+An on-chain representation of the Game of Life grid with a configurable size.
+Functions for initializing the grid, updating the grid state according to the Game of Life rules, and querying the current grid state.
+Autonomous execution of state updates, leveraging the Autonomous Smart Contracts Pallet to perform updates without user intervention.
 
 ### Game of life frontend
 
-The frontend should be a web application that allows to interact with the Game of life contract.
+The Game of Life frontend is a web application that provides users with an interactive interface for the Game of Life contract. Its features include:
 
-The frontend should be able to display the state of the game of life and allow to interact with the contract.
+Displaying the current state of the Game of Life grid with a clean and responsive visualization.
+Allowing users to interact with the Game of Life contract, such as initializing the grid, starting/stopping the simulation, or manually updating the grid state.
+Connecting to the mikasa-node and automatically updating the grid visualization as new blocks are processed.
 
 ### Documentation
 
