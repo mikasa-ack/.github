@@ -2,6 +2,8 @@
 
 【M】odular【I】nk-based【K】inetic【A】utonomous【S】mart contracts【A】rchitecture.
 
+[Mikasa node.](https://github.com/mikasa-ack/mikasa-node) - [Game of life smart contracts.](https://github.com/mikasa-ack/gol) - [Game of Life application.](https://github.com/mikasa-ack/gol-app) - [Mikasa website.](https://github.com/mikasa-ack/mikasa-website) 
+
 ## Overview
 
 This project aims to create an on-chain implementation of the famous Game of Life cellular automaton using Substrate, Ink!, and a custom-built Substrate pallet. Our project demonstrates the power of autonomous smart contracts for on-chain gaming.
