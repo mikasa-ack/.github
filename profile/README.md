@@ -65,28 +65,3 @@ The documentation should be a markdown file that explains how to deploy the auto
 
 The demo video should be a video that shows how to deploy the autonomous smart contracts pallet and the Game of life contract on a Substrate node with the contracts pallet enabled and how to interact with the Game of life contract using the frontend.
 
-
-## Resources
-### Substrate & Ink!
-- [Ink! documentation](https://use.ink/)
-- [Substrate general documentation](https://docs.substrate.io/)
-- [substrate node with contracts pallet enabled](https://github.com/paritytech/substrate-contracts-node)
-
-### Massa
-- [Autonomous smart contracts documentation](https://docs.massa.net/en/latest/general-doc/autonomous-sc.html#general-asc)
-- [Massa: Autonomous smart contracts from dapp developer perspective](https://docs.massa.net/en/latest/general-doc/autonomous-sc.html#general-asc)
-- [Massa: Dapp example of an oracle using autonomous smart contracts](https://github.com/massalabs/massa-sc-examples/blob/main/ticker/assembly/contracts/oracle.ts#L25)
-- Execution of an autonomous smart contract: [massa-execution-worker execute_async_message function](https://github.com/massalabs/massa/blob/main/massa-execution-worker/src/execution.rs#L695)
-- Read asynchronous messages to execute: [massa-execution-worker execute_slot function](https://github.com/massalabs/massa/blob/main/massa-execution-worker/src/execution.rs#L819)
-
-### Game of life frontend
-#### Game of life React
-
-- https://github.com/creotip/game-of-life-react
-- Demo: https://game-of-life-app.netlify.app/
-- Tutorial: https://creotip.io/posts/building-game-of-life-with-react-hooks-chakra-ui
-
-#### Rust Wasm Game of life
-
-- https://github.com/rustwasm/wasm_game_of_life
-- https://rustwasm.github.io/docs/book/game-of-life/introduction.html
