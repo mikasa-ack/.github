@@ -4,6 +4,12 @@
 
 [Mikasa node.](https://github.com/mikasa-ack/mikasa-node) - [Game of life smart contracts.](https://github.com/mikasa-ack/gol) - [Game of Life application.](https://github.com/mikasa-ack/gol-app) - [Mikasa website.](https://github.com/mikasa-ack/mikasa-website) 
 
+
+
+https://user-images.githubusercontent.com/45264458/227019112-b63ea3bd-3c06-4277-8745-caa1f3a3c80d.mp4
+
+
+
 ## Overview
 
 This project aims to create an on-chain implementation of the famous Game of Life cellular automaton using Substrate, Ink!, and a custom-built Substrate pallet. Our project demonstrates the power of autonomous smart contracts for on-chain gaming.
