@@ -62,12 +62,3 @@ The Game of Life frontend is a web application that provides users with an inter
 Displaying the current state of the Game of Life grid with a clean and responsive visualization.
 Allowing users to interact with the Game of Life contract, such as initializing the grid, starting/stopping the simulation, or manually updating the grid state.
 Connecting to the mikasa-node and automatically updating the grid visualization as new blocks are processed.
-
-### Documentation
-
-The documentation should be a markdown file that explains how to deploy the autonomous smart contracts pallet and the Game of life contract on a Substrate node with the contracts pallet enabled.
-
-### Demo video
-
-The demo video should be a video that shows how to deploy the autonomous smart contracts pallet and the Game of life contract on a Substrate node with the contracts pallet enabled and how to interact with the Game of life contract using the frontend.
-
